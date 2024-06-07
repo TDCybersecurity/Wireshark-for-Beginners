@@ -2,9 +2,7 @@
 
 <p align = "center" >
   
-![download](https://github.com/TDCybersecurity/Wireshark-for-Beginners-/assets/142702123/10b9a79a-ff6c-49a6-8dcd-26449566d6b5) 
-![images](https://github.com/TDCybersecurity/Wireshark-for-Beginners-/assets/142702123/9964c533-cc5f-41af-9e0d-c3f110d94396)
-![images](https://github.com/TDCybersecurity/Wireshark-for-Beginners-/assets/142702123/86f6ea83-8d8f-45e1-8088-848ac651d6ae)
+![download](https://github.com/TDCybersecurity/Wireshark-for-Beginners-/assets/142702123/10b9a79a-ff6c-49a6-8dcd-26449566d6b5) ![images](https://github.com/TDCybersecurity/Wireshark-for-Beginners-/assets/142702123/86f6ea83-8d8f-45e1-8088-848ac651d6ae)
 </p>
 
 # **Wireshark for Beginners: Capture Packets**
@@ -79,6 +77,7 @@ Go back to Wireshark to stop the capture. Set the display filter to tcp.port==44
 
 Find **Hello Client** and note the Destination IP, which should be Google.com. Confirm via your browser.
 ![Wire 66 4 2](https://github.com/TDCybersecurity/Wireshark-for-Beginners-/assets/142702123/ad280ab3-2d84-45b0-bbac-294d40803c72)
+
 
 ## Thank you for exploring my lab firsthand and experiencing this hands-on journey with me.
 
