@@ -41,21 +41,36 @@ Re-Start a capture.![Wire 66 2 4](https://github.com/TDCybersecurity/Wireshark-f
 
 **3 Use a display filter to detect HTTPS packets.**
 
+
+
+
+
+
+
+
+
+![Wire 66 3 3](https://github.com/TDCybersecurity/Wireshark-for-Beginners-/assets/142702123/0ed14616-4422-48e2-a555-4686a518a072)
+
+![Wire 66 3 1](https://github.com/TDCybersecurity/Wireshark-for-Beginners-/assets/142702123/b1806d68-55f1-423f-8360-a8e89ea9f2d9)
+
+
 Practice Task: Start Wireshark capture and detect **HTTP** packets.
 
-Go Mozilla Firefox Browser
+Go Mozilla Firefox Browser. ![Wire 66 3 0](https://github.com/TDCybersecurity/Wireshark-for-Beginners-/assets/142702123/1b9b3488-1e42-41cc-bd09-1847e01bbfd5)
 
 Enter **duckduckgo.com** the Browser. Before you start go back to Wireshark.
 
-Wireshark hit the Blue Shark Fin to start a capture, now go back to Mozilla Firefox Browser and load godaddy.com.
+Wireshark hit the Blue Shark Fin to start a capture, now go back to Mozilla Firefox Browser and load godaddy.com.![Wire 66 3 2](https://github.com/TDCybersecurity/Wireshark-for-Beginners-/assets/142702123/117817ed-74ed-419c-bc5a-7feb96ab8512)
 
-In Wireshark **stop the capture**, save it using File name: **Step2**.
-
+In Wireshark **stop the capture**, save it using File name: **Step2**.![Wire 66 3 4](https://github.com/TDCybersecurity/Wireshark-for-Beginners-/assets/142702123/c555cf4e-a094-4fe9-90d6-6480238c8351)
+![Wire 66 3 5](https://github.com/TDCybersecurity/Wireshark-for-Beginners-/assets/142702123/edab806b-1567-4da0-9c2b-f39ad7a560f0)
 Apply display filter **tcp.port==443.** Press on the **Blue Arrow** to **apply the filter.** This displays activity on port 443.
+![Wire 66 3 7](https://github.com/TDCybersecurity/Wireshark-for-Beginners-/assets/142702123/ee6e4dc5-e948-427f-984a-f3ff1e43674e)
 
-Reload the file and locate the **Client Hello** and note the Destination **52.149.246.39**.
+Reload the file and locate the **Client Hello** and note the Destination **52.149.246.39**.![Wire 66 3 8](https://github.com/TDCybersecurity/Wireshark-for-Beginners-/assets/142702123/7e2d20a3-89fc-4468-a595-04386bc9affc)
 
-Copy and paste this **IP Address** into you **Mozilla Firefox browser** to launch the **duckduckgo.com** web page
+Copy and paste this **IP Address** into you **Mozilla Firefox browser** to launch the **duckduckgo.com** web page. ![Wire 66 3](https://github.com/TDCybersecurity/Wireshark-for-Beginners-/assets/142702123/8bb471ad-4fae-46f3-9ccd-686d246acbc4)
+![Wire 66 3 9](https://github.com/TDCybersecurity/Wireshark-for-Beginners-/assets/142702123/fa85ffe1-861c-48ff-8e73-9a564700256e)
 
 **Capstone Task: Use Wireshark to capture and observe ethernet packets on HTTP and HTTPS ports. 4m**
 
