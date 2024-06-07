@@ -5,11 +5,11 @@
 ![download](https://github.com/TDCybersecurity/Wireshark-for-Beginners-/assets/142702123/10b9a79a-ff6c-49a6-8dcd-26449566d6b5) ![images](https://github.com/TDCybersecurity/Wireshark-for-Beginners-/assets/142702123/86f6ea83-8d8f-45e1-8088-848ac651d6ae)
 </p>
 
-# **Wireshark for Beginners: Capture Packets**
+# **🦈Wireshark for Beginners: Capture Packets**
 
-Think of Wireshark as a sophisticated surveillance system for computer networks.  It's like having a digital detective kit that allows you to eavesdrop on the conversations between devices connected to the same network.  with Wireshark, IT professionals can meticulously analyze the data packets flowing through the network, pinpointing issues, identifying security threats, and optimizing performance with surgical precision.  It's the go-to-tool for those who want to dive deep into the inner workings of network communication.
+Think of Wireshark as a sophisticated surveillance system for computer networks.  It's like having a digital detective kit that allows you to eavesdrop on the conversations between devices connected to the same network.  With Wireshark, IT professionals can meticulously analyze the data packets flowing through the network, pinpointing issues, identifying security threats, and optimizing performance with surgical precision.  It's the go-to-tool for those who want to dive deep into the inner workings of network communication.
 
-## **1 Install and setup Wireshark for non-super users belonging to the Wireshark Group.**
+## **🦈1 Install and setup Wireshark for non-super users belonging to the Wireshark Group.**
 
 Type **sudo usermod -aG wireshark $USER** in the Command Line and press Enter
 **\-a** means to append, while **G** mean Group, so we are adding **Wireshark** to the Group **rhyme**.
@@ -17,7 +17,7 @@ This means we are not running **Wireshark** as **sudo** or **super user**, we ar
 Wireshark **should not** be run as superuser for **security reasons**.
 ![Wire 66 1 0](https://github.com/TDCybersecurity/Wireshark-for-Beginners-/assets/142702123/6398908d-f828-4664-9077-9fea530fd5b0)
 
-## **2 Start a packet capture on an ethernet port and save it to a file.**
+## **🦈2 Start a packet capture on an ethernet port and save it to a file.**
 
 Open **The Wireshark Network Analyzer** by clicking on it at the bottom of the screen.
 
@@ -36,7 +36,7 @@ Open the Step 2 file.![Wire 66 2 3](https://github.com/TDCybersecurity/Wireshark
 Re-Start a capture.![Wire 66 2 4](https://github.com/TDCybersecurity/Wireshark-for-Beginners-/assets/142702123/1a1f1f35-5da7-47e3-9a2b-9da4343bd06d)
 
 
-## **3 Use a display filter to detect HTTPS packets.**
+## **🦈3 Use a display filter to detect HTTPS packets.**
 
 Practice Task: Start Wireshark capture and detect **HTTP** packets.
 
@@ -65,7 +65,7 @@ Copy and paste this **IP Address** into you **Mozilla Firefox browser** to launc
 
 
 
-## **4 Visit a webpage and detect its IP address using a display filer.**
+## **🦈4 Visit a webpage and detect its IP address using a display filer.**
 
 Go to Mozilla Firefox Browser, then settings, the Cookies and Site Data to Clear Data.![Wire 66 4 0](https://github.com/TDCybersecurity/Wireshark-for-Beginners-/assets/142702123/25e888e8-e027-4944-867b-f740d3697ba1)
 
@@ -73,7 +73,7 @@ Go back to Wireshark, clear the filter, close the capture file, and start a capt
 
 In browser go to Google.com
 
-Go back to Wireshark to stop the capture. Set the display filter to tcp.port==443. ![Screenshot 2024-06-06 162131](https://github.com/TDCybersecurity/Wireshark-for-Beginners-/assets/142702123/aae8dc66-e6b9-4e73-9965-83e39245489b)
+Go back to Wireshark to stop the capture. Set the display filter to tcp.port==443. 
 
 Find **Hello Client** and note the Destination IP, which should be Google.com. Confirm via your browser.
 ![Wire 66 4 2](https://github.com/TDCybersecurity/Wireshark-for-Beginners-/assets/142702123/ad280ab3-2d84-45b0-bbac-294d40803c72)
