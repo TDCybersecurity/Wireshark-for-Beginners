@@ -5,7 +5,7 @@
 ![download](https://github.com/TDCybersecurity/Wireshark-for-Beginners-/assets/142702123/10b9a79a-ff6c-49a6-8dcd-26449566d6b5) ![images](https://github.com/TDCybersecurity/Wireshark-for-Beginners-/assets/142702123/86f6ea83-8d8f-45e1-8088-848ac651d6ae)
 </p>
 
-# **🦈Wireshark for Beginners: Capture Packets**
+# **🦈Wireshark for Beginners: Network Packet Capturing**
 
 Think of Wireshark as a sophisticated surveillance system for computer networks.  It's like having a digital detective kit that allows you to eavesdrop on the conversations between devices connected to the same network.  With Wireshark, IT professionals can meticulously analyze the data packets flowing through the network, pinpointing issues, identifying security threats, and optimizing performance with surgical precision.  It's the go-to-tool for those who want to dive deep into the inner workings of network communication.
 
