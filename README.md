@@ -1,16 +1,16 @@
 # Wireshark-for-Beginners
 
+![download](https://github.com/TDCybersecurity/Wireshark-for-Beginners-/assets/142702123/10b9a79a-ff6c-49a6-8dcd-26449566d6b5) 
 
+![images](https://github.com/TDCybersecurity/Wireshark-for-Beginners-/assets/142702123/86f6ea83-8d8f-45e1-8088-848ac651d6ae)
 
-
+![images](https://github.com/TDCybersecurity/Wireshark-for-Beginners-/assets/142702123/9964c533-cc5f-41af-9e0d-c3f110d94396)
 
 
 
 # **Wireshark for Beginners: Capture Packets**
 
-The IT manager wants to be able to capture ethernet network web traffic on the server and be able to detect certain IP addresses as well.
-To be successful in this project, you will need some basic Linux Command Line Knowledge and some exposure to Computer Networks.
-You are working for a company that wants to detect certain TCP/IP network traffic on their server, specifically web traffic. Your task is to set up and demonstrate Wireshark’s packet capture capabilities.
+Think of Wireshark as a sophisticated surveillance system for computer networks.  It's like having a digital detective kit that allows you to eavesdrop on the conversations between devices connected to the same network.  with Wireshark, IT professionals can meticulously analyze the data packets flowing through the network, pinpointing issues, identifying security threats, and optimizing performance with surgical precision.  It's the go-to-tool for those who want to dive deep into the inner workings of network communication.
 
 ## **1 Install and setup Wireshark for non-super users belonging to the Wireshark Group.**
 
@@ -66,16 +66,20 @@ Copy and paste this **IP Address** into you **Mozilla Firefox browser** to launc
 
 ![Wire 66 3 9](https://github.com/TDCybersecurity/Wireshark-for-Beginners-/assets/142702123/fa85ffe1-861c-48ff-8e73-9a564700256e)
 
-**Capstone Task: Use Wireshark to capture and observe ethernet packets on HTTP and HTTPS ports. 4m**
+
 
 ## **4 Visit a webpage and detect its IP address using a display filer.**
 
-Go to Mozilla Firefox Browser, then settings, the Cookies and Site Data to Clear Data.
+Go to Mozilla Firefox Browser, then settings, the Cookies and Site Data to Clear Data.![Wire 66 4 0](https://github.com/TDCybersecurity/Wireshark-for-Beginners-/assets/142702123/25e888e8-e027-4944-867b-f740d3697ba1)
 
 Go back to Wireshark, clear the filter, close the capture file, and start a capture.
 
 In browser go to Google.com
 
-Go back to Wireshark to stop the capture. Set the display filter to tcp.port==443
+Go back to Wireshark to stop the capture. Set the display filter to tcp.port==443. ![Screenshot 2024-06-06 162131](https://github.com/TDCybersecurity/Wireshark-for-Beginners-/assets/142702123/aae8dc66-e6b9-4e73-9965-83e39245489b)
 
 Find **Hello Client** and note the Destination IP, which should be Google.com. Confirm via your browser.
+![Wire 66 4 2](https://github.com/TDCybersecurity/Wireshark-for-Beginners-/assets/142702123/ad280ab3-2d84-45b0-bbac-294d40803c72)
+
+
+
